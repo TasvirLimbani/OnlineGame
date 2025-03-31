@@ -4,12 +4,13 @@ import { getFirestore } from "firebase/firestore"
 import { getStorage } from "firebase/storage"
 
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  apiKey: "AIzaSyAfjefH_NIbRlBj9Xpr4IyY5TIp_Gp23_g",
+  authDomain: "crazygamesin1.firebaseapp.com",
+  projectId: "crazygamesin1",
+  storageBucket: "crazygamesin1.firebasestorage.app",
+  messagingSenderId: "26057354138",
+  appId: "1:26057354138:web:8c8add22840a8041afe823",
+  measurementId: "G-25TJS8XJ3D"
 }
 
 // Initialize Firebase
